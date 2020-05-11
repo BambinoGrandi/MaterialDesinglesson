@@ -9,22 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".homework3.AppBarDemo"
+            android:label="ActionBar"
+            android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
-        <activity android:name=".homework2.EditTextDemo">
-
-        </activity>
-        <activity android:name=".homework2.SnackBarDemo">
-
-        </activity>
-        <activity android:name=".homework2.SheetsBottomDemo">
+        <activity
+            android:name=".homework3.NoToolbarActivity"
+            android:theme="@style/AppTheme.NoToolBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".homework3.ButtonsActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".homework2.EditTextDemo" />
+        <activity android:name=".homework2.SnackBarDemo" />
+        <activity android:name=".homework2.SheetsBottomDemo" />
     </application>
 
 </manifest>
