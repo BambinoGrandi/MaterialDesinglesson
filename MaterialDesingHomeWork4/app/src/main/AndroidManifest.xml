@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.grandi.bambino.materialdesinghomework">
+    package="com.grandi.bambino.materialdesinghomework4">
 
     <application
         android:allowBackup="true"
@@ -9,26 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ProgressBar"></activity>
+        <activity android:name=".AudiCar" />
+        <activity android:name=".BmwCar" />
+        <activity android:name=".MercedesCar" />
         <activity
-            android:name=".homework3.AppBarDemo"
-            android:label="ActionBar"
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".EnterActivity"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity
-            android:name=".homework3.NoToolbarActivity"
-            android:theme="@style/AppTheme.NoToolBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homework3.ButtonsActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".homework2.EditTextDemo" />
-        <activity android:name=".homework2.SnackBarDemo" />
-        <activity android:name=".homework2.SheetsBottomDemo" />
     </application>
 
 </manifest>
