@@ -16,6 +16,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
+import com.grandi.bambino.materialdesinghomework4.car.AudiCar;
+import com.grandi.bambino.materialdesinghomework4.car.BmwCar;
+import com.grandi.bambino.materialdesinghomework4.car.MercedesCar;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 

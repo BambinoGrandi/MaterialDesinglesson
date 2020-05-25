@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_bmw_car"
-    tools:context=".BmwCar">
+    tools:context=".car.BmwCar">
 
     <LinearLayout
         android:layout_width="match_parent"

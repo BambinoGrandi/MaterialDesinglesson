@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".ProgressBar"/>
-        <activity android:name=".AudiCar"
+        <activity android:name=".car.AudiCar"
             android:label="Audi"/>
-        <activity android:name=".BmwCar"
+        <activity android:name=".car.BmwCar"
             android:label="BMW"/>
-        <activity android:name=".MercedesCar"
+        <activity android:name=".car.MercedesCar"
             android:label="Mercedes"/>
         <activity
             android:name=".MainActivity"

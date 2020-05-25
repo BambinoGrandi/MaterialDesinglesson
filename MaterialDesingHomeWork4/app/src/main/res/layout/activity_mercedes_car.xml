@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_gravity="center"
-    tools:context=".MercedesCar"
+    tools:context=".car.MercedesCar"
     android:fitsSystemWindows="true">
 
     <com.google.android.material.appbar.AppBarLayout
