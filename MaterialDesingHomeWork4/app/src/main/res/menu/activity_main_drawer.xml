@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bmw"
+            android:icon="@drawable/bmw"
+            android:title="Bmw" />
+        <item
+            android:id="@+id/nav_merc"
+            android:icon="@drawable/mercedes_benz"
+            android:title="Mercedes" />
+        <item
+            android:id="@+id/nav_audi"
+            android:icon="@drawable/audi"
+            android:title="Audi" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_progress_bar"
+            android:title="Progress bar" />
+    </group>
+
+</menu>
